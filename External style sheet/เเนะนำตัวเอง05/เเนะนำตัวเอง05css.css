@@ -1,0 +1,49 @@
+
+.nickname {
+    margin: 1px 10px ;
+}
+.old{
+    margin: 1px 10px ;
+}
+.food{
+    margin: 1px 10px ;
+}
+/* ให้แน่ใจว่าใช้ตัวอักษรและพื้นหลังที่อ่านง่าย */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* กำหนดสไตล์ให้กับ container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #ccc; /* กำหนดกรอบ */
+    border-radius: 10px; /* เพิ่มความโค้งมนให้กรอบ */
+    background-color: #fff; /* สีพื้นหลังของกรอบ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    text-align: center;
+    background-color: #fbfde9;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+

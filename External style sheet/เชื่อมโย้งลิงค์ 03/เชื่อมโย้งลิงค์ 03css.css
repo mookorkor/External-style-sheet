@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    margin: 200px 10px;
+    text-decoration: none;
+}
+
+.image-link {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
